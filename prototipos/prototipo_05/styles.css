@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.carta-5 {
+    margin-top: 70px;
+    padding: 50px;
+    padding-bottom: 40px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+}
+
+.carta-5 h2 {
+    font-size: 4rem;
+    width: 50%;
+    margin-top: 0;
+}
+
+.carta-5 > div {
+    display: flex;
+    gap: 45px;
+}
+
+.carta-5 > div > div {
+    width: 300px;
+}
+
+.carta-5 img {
+    width: 300px;
+}
+
+.carta-5 > div > div > div {
+    color: #888;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.carta-5 p {
+    color: #777;
+    font-size: 1.1rem;
+    margin-top: 0;
+}

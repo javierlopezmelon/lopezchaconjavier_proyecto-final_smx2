@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Lato;
+}
+
+.carta-29 {
+    width: 1100px;
+    height: 750px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+img[alt="imagen-fondo"] {
+    object-fit: cover;
+    width: 1100px;
+    height: 650px;
+    object-position: 100% 70%;
+    position: absolute;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.contenido-carta {
+    position: relative;
+    z-index: 20px;
+}

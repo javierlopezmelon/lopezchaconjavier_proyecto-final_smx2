@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.carta-8 {
+    padding: 50px 40px;
+    padding-top: 90px;
+    padding-bottom: 28px;
+    width: 880px;
+    height: 489.5px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    background-color:#9C2004;
+}
+
+.carta-8 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circulo-amarillo {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    background-color: #E5B94B;
+    position: relative;
+    top: -30px;
+}
+
+img[src="img__carta-8/imagen1.png"] {
+    position: absolute;
+    right: 20px;
+    top: -64.5px;
+}
+
+.lado-derecho {
+    width: 320px;
+    color: #fff;
+    position: relative;
+    bottom: 50px;
+}
+
+.lado-derecho h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-size: 900;
+    font-family: Work Sans;
+}
+
+.lado-derecho p {
+    font-weight: 200;
+    font-family: Work Sans;
+}
+
+.lado-derecho button {
+    color: #000;
+    background-color: #E5B94B;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+img[alt="imagen1"] {
+    position: absolute;
+    width: 150px;
+}
+
+img[alt="imagen2"] {
+    position: absolute;
+    width: 150px;
+    bottom: -60px;
+    left: 300px;
+}

@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.carta-14 {
+    width: 950px;
+    height: 640px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    display: flex;
+    padding: 50px;
+    padding-right: 95px;
+    padding-top: 75px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+.lado-izquierdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 60px;
+    width: 500px;
+}
+
+.contenido {
+    width: 450px;
+}
+
+.contenido h2 {
+    font-size: 53px;
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    font-size: 20px;
+    color: #666;
+    font-weight: 100;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.contenido button {
+    border: none;
+    border-radius: 50px;
+    padding: 20px 30px;
+    background-color: #FFDE81;
+    font-size: 16px;
+}
+
+.secion-marron {
+    display: flex;
+    background-color: #49342F;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.numero {
+    font-weight: 600;
+}
+
+.raya {
+    width: 25px;
+    height: 3px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.trozo-secion {
+    width: 80px;
+}
+
+.trozo-secion p {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.lado-derecho {
+    width: 450px;
+    position: relative;
+}
+
+.lado-derecho img {
+    position: absolute;
+}
+
+img[alt="movil"] {
+    z-index: 100;
+    top: 200px;
+    right: -65px;
+    height: 480px;
+    rotate: 355deg;
+}
+
+img[alt="corzon"] {
+    z-index: 90;
+    top: 200px;
+    right: 160px;
+    width: 200px;
+}
+
+img[alt="papel amarillo"]{
+    z-index: 50;
+    width: 380px;
+    height: 420px;
+    top: 70px;
+}
+
+img[alt="papel marron"] {
+    z-index: 40;
+    width: 400px;
+    height: 450px;
+    top: 80px;
+    right: -50px;
+}
+
+img[alt="estreya1"] {
+    z-index: 60;
+    right: 374px;
+    top: -20px;
+    width: 140px;
+}
+
+img[alt="estreya3"] {
+    z-index: 60;
+    width: 120px;
+    top: 70px;
+    right: 70px;
+}
+
+img[alt="estreya4"] {
+    z-index: 60;
+    right: -30px;
+    top: 200px;
+    width: 90px;
+}
+
+img[alt="estreya2"] {
+    z-index: 60;
+    top: 500px;  
+    right: -40px;
+    width: 100px;
+}

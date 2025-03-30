@@ -1,0 +1,216 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carta-15 {
+    width: 920px;
+    height: 640px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.lado-izquierdo {
+    width: 280px;
+}
+
+.contenido-izquierdo h2 {
+    font-size: 45px;
+    font-weight: 100;
+    margin: 5px 0;
+    line-height: 1.3;
+}
+
+.izquierdo-titlulo-estreya {
+    display: flex;
+    align-items: center;
+}
+
+.izquierdo-titlulo-estreya img {
+    position: relative;
+    right: -30px;
+}
+
+img[src="img_carta-15/imagen1.jpeg"] {
+    margin-top: 40px;
+}
+
+.contenido-izquierdo p {
+    font-size: 18px;
+}
+
+.contenido-izquierdo button {
+    border: none;
+    background-color: #457D61;
+    color: #fff;
+    padding: 14px 25px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.izquierdo-imagenes, .derecho-imagenes {
+    display: flex;
+    gap: 15px;
+}
+
+.derecho-dos-imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.lado-centro  {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    align-items: center;
+}
+
+.texto-centro {
+    position: relative;
+    font-size: 25px;
+    right: -2px;
+    transform: rotate(3deg);
+}
+
+.texto-centro span {
+    position: absolute;
+}
+
+.texto-centro span:nth-child(1) {
+    transform: translateX(-130px) translateY(10px) rotate(310deg);
+}
+
+.texto-centro span:nth-child(2) {
+    transform: translateX(-115px) translateY(0px) rotate(315deg);
+}
+
+.texto-centro span:nth-child(3) {
+    transform: translateX(-105px) translateY(-10px) rotate(320deg);
+}
+
+.texto-centro span:nth-child(4) {
+    transform: translateX(-90px) translateY(-21px) rotate(325deg);
+}
+
+.texto-centro span:nth-child(5) {
+    transform: translateX(-75px) translateY(-28px) rotate(332deg);
+}
+
+.texto-centro span:nth-child(6) {
+    transform: translateX(-55px) translateY(-36px) rotate(332deg);
+}
+
+.texto-centro span:nth-child(7) {
+    transform: translateX(-40px) translateY(-41px) rotate(345deg);
+}
+
+.texto-centro span:nth-child(8) {
+    transform: translateX(-22px) translateY(-44px) rotate(348deg);
+}
+
+.texto-centro span:nth-child(9) {
+    transform: translateX(-10px) translateY(-45px) rotate(354deg);
+}
+
+.texto-centro span:nth-child(10) {
+    transform: translateX(5px) translateY(-45px) rotate(364deg);
+}
+
+.texto-centro span:nth-child(11) {
+    transform: translateX(25px) translateY(-43px) rotate(364deg);
+}
+
+.texto-centro span:nth-child(12) {
+    transform: translateX(40px) translateY(-38px) rotate(375deg);
+}
+
+.texto-centro span:nth-child(13) {
+    transform: translateX(60px) translateY(-34px) rotate(385deg);
+}
+
+.texto-centro span:nth-child(14) {
+    transform: translateX(75px) translateY(-28px) rotate(385deg);
+}
+
+.texto-centro span:nth-child(15) {
+    transform: translateX(85px) translateY(-22px) rotate(390deg);
+}
+
+.texto-centro span:nth-child(16) {
+    transform: translateX(100px) translateY(-15px) rotate(395deg);
+}
+
+.texto-centro span:nth-child(17) {
+    transform: translateX(108px) translateY(-8px) rotate(398deg);
+}
+
+.lado-centro {
+    margin-bottom: 120px;
+}  
+
+.lado-derecho {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+}
+
+.derecho-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.derecho-contenido p, .derecho-contenido h2 {
+    width: 185px;
+    margin-right: 20px;
+}
+
+.derecho-contenido p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.derecho-contenido h2 {
+    font-size: 45px;
+    font-weight: 100;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+img[src="img_carta-15/imagen4.jpeg"] {
+    margin-top: 80px;
+}
+
+img[alt="estreya"] {
+    width: 55px;
+    height: 55px;
+}
+
+img[src="img_carta-15/imagen1.jpeg"], img[src="img_carta-15/imagen2.jpeg"], img[src="img_carta-15/imagen3.jpeg"], img[src="img_carta-15/imagen4.jpeg"] {
+    width: 120px;
+    height: 210px;
+    border-radius: 100px;
+}
+
+img[src="img_carta-15/imagen5.jpeg"] {
+    border-radius: 300px;
+    width: 260px;
+    height: 450px;
+}

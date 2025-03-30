@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.carta-11 {
+    width: 780px;
+    height: 490px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.parte-arriba {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte-abajo {
+    display: flex;
+}
+
+.parte-arriba__izquierdo {
+    width: 330px;
+    position: relative;
+    top: -20px;
+}
+
+.parte-arriba__izquierdo h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.parte-arriba__izquierdo p {
+    color: #333;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.parte-arriba__izquierdo button {
+    border: none;
+    color: #fff;
+    background-color: #333;
+    padding: 12px 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.parte-abajo {
+    background-color: #333;
+    border-radius: 20px;
+    padding: 20px 40px;
+    padding-top: 30px;
+    color: #ccc;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte-abajo img {
+    width: 15px;
+}
+
+.parte-abajo h3 {
+    margin-top: 5px;
+}
+
+.parte-abajo p {
+    font-size: 14px;
+}
+
+.parte-abajo_trozo {
+    width: 180px;
+}
+
+.parte-arriba__derecho {
+    position: relative;
+}
+
+.parte-arriba__derecho img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+}
+
+img[alt="imagen1"] {
+    position: absolute;
+    top: -20px;
+    right: 120px;
+}
+
+img[alt="imagen2"] {
+    position: absolute;
+    left: -200px;
+    bottom: -15px;
+}

@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 20px;
+    font-family: 'Avenir';
+}
+
+.carta-16 {
+    width: 990px;
+    height: 650px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    padding: 50px;
+    background-image: url(img_carta-16/imagen1.jpeg), linear-gradient(to top, #043E49, 50%, #09212C);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 50px;
+    color: #fff;
+}
+
+.contenido-medio {
+    backdrop-filter: blur(3px);
+    width: 450px;
+    padding: 30px 70px 30px 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, #040f14, transparent);
+}
+
+.contenido {
+    width: 418px;
+}
+
+.contenido-medio h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0 30px 0;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.contenido-medio p {
+    line-height: 25px;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.contenido button {
+    background-color: #63E1E1;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 2px #63E1E1);
+}
+
+.colores {
+    display: flex;
+}
+
+.colores div {
+    width: 12px;
+    height: 12px;
+}
+
+.amarillo {
+    background-color: #ff0;
+}
+
+.azul {
+    background-color: aqua;
+}
+
+.verde {
+    background-color: #0f0;
+}
+
+.rojo {
+    background-color: #f55;
+}
+
+.lila {
+    background-color: #55f;
+}
+
+.contenido-abajo {
+    display: flex;
+    backdrop-filter: blur(3px);
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 15px 40px;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right,#091f1c, 10%, transparent);
+}
+
+.trozo-contenido {
+    width: 190px;
+}
+
+.trozo-contenido img {
+    width: 20px;
+}
+
+.trozo-contenido h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.trozo-contenido p {
+    font-size: 14px;
+    margin-top: 5px;
+}

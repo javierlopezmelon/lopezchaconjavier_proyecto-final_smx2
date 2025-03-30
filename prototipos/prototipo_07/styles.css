@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.carta-7 {
+    padding: 50px 40px;
+    width: 1040px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+}
+
+h2 {
+    width: 60%;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.targeta {
+    width: 250px;
+    position: relative;
+}
+
+.targeta > p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.targeta::after {
+    content: " ";
+    position: absolute;
+    background: linear-gradient(to top, #0005 10%, transparent 50%);
+    width: 250px;
+    height: 300px;
+    z-index: 10;
+    right: 0;
+    border-radius: 15px;
+}
+
+.contenido {
+    position: absolute;
+    top: 305px;
+    left: 20px;
+    width: 190px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contenido h3, .contenido p {
+    margin: 5px 0;
+    color: #333;
+    font-family: Sen;
+} 
+
+.contenido p {
+    font-size: 14px;
+}
+
+.contenido h3 {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.numero ~ p {
+    color: #777;
+}
+
+.numero {
+    color: #aaa;
+    font-weight: 700;
+    font-size: 25px;
+}

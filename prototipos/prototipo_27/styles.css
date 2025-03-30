@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Montserrat;
+}
+
+.carta-27 {
+    width: 1000px;
+    height: 700px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    display: flex;
+    padding: 50px;
+    background-image: url(img_carta-27/imagen-fondo.jpeg);
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido {
+    width: 380px;
+    background-image: linear-gradient(to top, #9e96961c, #5046466b 80%);
+    backdrop-filter: blur(3px);
+    padding: 30px;
+    border-radius: 20px;
+    color: #fff;
+    height: fit-content;
+}
+
+.contenido h2 {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.contenido p {
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.contenido button {
+    background-color: #519BFD;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.imagenes {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagenes img {
+    width: 220px;
+    object-fit: cover;
+    height: 220px;
+    border-radius: 20px;
+}
