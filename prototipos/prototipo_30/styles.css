@@ -7,28 +7,31 @@ body {
 }
 
 .carta-30 {
-    width: 1100px;
-    height: 750px;
+    width: 1000px;
+    height: 720px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    overflow: hidden;
 }
 
 .lado-arriba {
     background-color: #EFC356;
     display: flex;
+    height: 620px;
 }
 
 .contenido {
     padding: 50px;
-    width: 420px;
+    width: 390px;
     color: #fff;
     position: relative;
     top: 100px;
 }
 
 .contenido h2 {
-    font-size: 58px;
+    font-size: 55px;
     margin-top: 0;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .contenido p {
@@ -40,8 +43,8 @@ body {
 .contenido img {
     position: absolute;
     top: 230px;
-    right: 200px;
-    width: 180px;
+    right: 130px;
+    width: 200px;
 }
 
 .contenido button {
@@ -52,6 +55,7 @@ body {
     border-radius: 20px;
     position: relative;
     z-index: 10;
+    font-size: 16px;
 }
 
 .lado-derecho {
@@ -60,10 +64,10 @@ body {
 }
 
 .texto-redondo {
-    position: relative;
-    top: 250px;
-    right: -70px;
-    scale: .9;
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    scale: .8;
 }
 
 img[alt="icono-corazon"] {
@@ -74,11 +78,76 @@ img[alt="icono-corazon"] {
 
 .lado-derecho img[alt="perro-fondo"] {
     object-fit: cover;
-    object-position: 28% 100%;
-    width: 450px;
-    scale: .9;
+    object-position:70% 100%;
+    width: 410px;
+    height: 700px;
+    top: -110px;
+    right: -60px;
+    position: relative;
+    scale: 1;
+    z-index: 20;
 }
 
 img[alt="suma-perro"] {
-    
+    width: 130px;
+    object-fit: cover;
+    position: relative;
+    top: 140px;
+    right: -80px;
+}
+
+.lado-derecho_del-derecho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: -100px;
+
+}
+
+.lado-derecho_del-derecho img[alt="guella-perro"] {
+    transform: rotate(406deg);
+    width: 270px;
+    position: relative;
+    right: -10px;
+    top: -20px;
+}
+
+.lado-abajo {
+    display: flex;
+    background-color: #EFEEEE;
+    border-radius: 20px;
+    position: relative;
+    top: -50px;
+    padding-left: 30px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.trozo-contenido-abajo {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.trozo-contenido-abajo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 10px;
+    scale: 1.2;
+}
+
+.contenido-trozo h3 {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.contenido-trozo p {
+    margin: 0;
+    width: 200px;
+    font-size: 12px;
+    margin-right: 10px;
 }
