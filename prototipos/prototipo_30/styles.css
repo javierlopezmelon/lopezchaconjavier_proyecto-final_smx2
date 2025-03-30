@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Lato;
+}
+
+.carta-30 {
+    width: 1100px;
+    height: 750px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+}
+
+.lado-arriba {
+    background-color: #EFC356;
+    display: flex;
+}
+
+.contenido {
+    padding: 50px;
+    width: 420px;
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+
+.contenido h2 {
+    font-size: 58px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.contenido p {
+    line-height: 1.4;
+    position: relative;
+    z-index: 10;
+}
+
+.contenido img {
+    position: absolute;
+    top: 230px;
+    right: 200px;
+    width: 180px;
+}
+
+.contenido button {
+    border: none;
+    padding: 12px 40px;
+    background-color: #7EB5E1;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.lado-derecho {
+    display: flex;
+    position: relative;
+}
+
+.texto-redondo {
+    position: relative;
+    top: 250px;
+    right: -70px;
+    scale: .9;
+}
+
+img[alt="icono-corazon"] {
+    position: absolute;
+    right: 70px;
+    top: 85px;
+}
+
+.lado-derecho img[alt="perro-fondo"] {
+    object-fit: cover;
+    object-position: 28% 100%;
+    width: 450px;
+    scale: .9;
+}
+
+img[alt="suma-perro"] {
+    
+}
