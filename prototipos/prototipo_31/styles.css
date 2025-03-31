@@ -7,12 +7,13 @@ body {
 }
 
 .carta-31 {
-    width: 1000px;
+    width: 950px;
     height: 600px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     padding: 50px 70px;
     display: flex;
     position: relative;
+    overflow: hidden;
 }
 
 .lado-izquierda {
@@ -24,7 +25,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    filter: blur(220px);
+    filter: blur(100px);
 }
 
 .dos-colores {
@@ -36,8 +37,8 @@ body {
 }
 
 .cuadrado {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     border-radius: 20px;
     border-top-left-radius: 20px;
     border-radius: 50%;
@@ -48,21 +49,29 @@ body {
     position: relative;
     top: -150px;
     right: 150px;
+    filter: blur(150px);
 }
 
 .cuadrado-amarillo {
     background-color: #E5E50140;
+    position: relative;
+    top: -150px;
 }
 
 .cuadrado-lila {
     background-color: #685FD440;
     position: relative;
     top: -500px;
+    height: 200%;
+    width: 1400px;
+    filter: blur(250px);
 }
 
 .cuadrado-azul {
     background-color: #8AB2DC73;
     top: 300px;
+    filter: blur(10px);
+    width: 100%;
 }
 
 .contenido {
@@ -92,9 +101,9 @@ body {
 .lado-derecha {
     position: relative;
     z-index: 100;
-    margin-top: 50px;
     height: 500px;
-    right: 70px;
+    right: 0px;
+    top: -20px;
 }
 
 .lado-derecha img[alt="imagen1"] {
@@ -109,15 +118,16 @@ body {
 .lado-derecha img[alt="estreya1"] {
     width: 70px;
     position: relative;
-    top: -400px;
-    right: -70px;
+    top: 70px;
+    right: 20px;
+    z-index: 100;
 }
 
 .lado-derecha img[alt="estreya2"] {
     width: 100px;
     position: relative;
-    top: -100px;
-    right: -280px;
+    top: -90px;
+    right: -290px;
 }
 
 .secion-abajo {
@@ -130,10 +140,48 @@ body {
 
 .trozo-secion-abajo {
     padding: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
     width: 150px;
     border: 2px solid #fff;
-    border-radius: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top left, transparent, 80%, #fff);
 }
+
+.redonda {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+
+.redonda img {
+    width: 15px;
+    height: 15px;
+}
+
+.redonda-azul {
+    background-color: #685FD459;
+}
+
+.redonda-amarillo {
+    background-color: #F2C94C59;
+}
+
+.redonda-celeste {
+    background-color: #8AB2DC59;
+}
+
+.trozo-secion-abajo p {
+    color: #333;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.trozo-secion-abajo
 
 .trozo-secion-abajo p {
     color: #333;

@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Lato;
+}
+
+.carta-32 {
+    width: 950px;
+    height: 600px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+}
