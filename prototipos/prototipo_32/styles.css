@@ -10,4 +10,51 @@ body {
     width: 950px;
     height: 600px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    background-color: #FBF4DF;
+    padding: 30px 50px;
+}
+
+.lado-arriba {
+    display: flex;
+}
+.titulo-marco {
+    padding: 30px;
+    border: 2px solid #000;
+    width: 450px;
+    position: relative;
+}
+
+.cuadrado-amarillo {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    background-color: #EFC356;
+    position: absolute;
+}
+
+.cuadrado-amarillo:nth-child(2){
+    top: -10px;
+    left: -10px;
+}
+
+.cuadrado-amarillo:nth-child(3){
+    top: -10px;
+    right: -10px;
+}
+
+.cuadrado-amarillo:nth-child(4){
+    bottom: -10px;
+    right: -10px;
+}
+
+.cuadrado-amarillo:nth-child(5){
+    bottom: -10px;
+    left: -10px;
+}
+
+
+.titulo-marco h2 {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 0;
 }
