@@ -7,11 +7,12 @@ body {
 }
 
 .carta-33 {
-    width: 1080px;
-    height: 800px;
+    width: 1030px;
+    height: 720px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     padding: 70px;
     color: #333;
+    display: flex;
 }
 
 .contenido-arriba {
@@ -42,10 +43,67 @@ body {
 .circulos {
     display: flex;
     position: relative;
-    right: 15px;
+    right: 45px;
+    width: 450px;
+    scale: .8;
+    gap: 25px;
 }
 
 .circulos img {
+    position: relative;
+}
+
+.contenido-abajo {
+    display: flex;
+    padding: 10px 20px;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 0;
+    border-radius: 20px;
+    border: 1px solid #333;
+    width: 370px;
+    margin-top: 30px;
+}
+
+.contenido-abajo .contenido-abajo-trozo {
+    width: 220px;
+}
+
+.contenido-abajo .contenido-abajo-trozo h3 {
+    margin: 5px 0;
+    margin-top: 10px;
+    color: #333;
+}
+
+.contenido-abajo .contenido-abajo-trozo p {
+    color: #333;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.lado-derecho {
+    display: flex;
+    position: relative;
+    right: -35px;
+}
+
+.lado-derecho img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 1px solid #333;
     scale: .8;
-    max-width: 100%;
+    margin-bottom: -35px;
+}
+
+.primera-parte-derecho {
+    position: relative;
+    top: -10px;
+}
+
+.segunda-parte-derecho {
+    margin-top: 60px;
+    right: 25px;
+    position: relative;
 }
