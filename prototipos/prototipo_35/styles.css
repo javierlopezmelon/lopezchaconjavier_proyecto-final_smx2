@@ -12,8 +12,54 @@ body {
     font-family: Inter;
     padding: 50px;
     display: flex;
+    color: #333;
 }
 
 .contenido h2 {
+    font-size: 42px;
     font-family: Zilla Slab;
+    margin-bottom: 20px;
+}
+
+.lado-izquierda {
+    width: 420px;
+}
+
+.contenido p {
+    width: 390px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.contenido button {
+    border: none;
+    border-radius: 50px;
+    padding: 14px 30px;
+    background-color: #222;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.contenido-abajo {
+    margin: 60px 0;
+    padding: 20px;
+    border: solid 2px #333;
+    box-shadow: 10px 10px 0 #333;
+}
+
+.contenido-abajo p {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.lado-derecha {
+    display: none;
 }
