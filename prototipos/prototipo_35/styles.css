@@ -7,7 +7,7 @@ body {
 
 .carta-35 {
     width: 1030px;
-    height: 740px;
+    height: 700px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     font-family: Inter;
     padding: 50px;
@@ -18,11 +18,19 @@ body {
 .contenido h2 {
     font-size: 42px;
     font-family: Zilla Slab;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    margin-top: 10px;
 }
 
 .lado-izquierda {
     width: 420px;
+}
+
+.lado-izquierda > img {
+    width: 140px;
+    height: 70px;
+    margin-top: 40px;
+    margin-bottom: 5px;
 }
 
 .contenido p {
@@ -42,7 +50,7 @@ body {
 }
 
 .contenido-abajo {
-    margin: 60px 0;
+    margin: 65px 0;
     padding: 20px;
     border: solid 2px #333;
     box-shadow: 10px 10px 0 #333;
@@ -52,14 +60,134 @@ body {
     margin: 0;
     padding: 10px;
     background-color: #333;
-    color: #fff;
     font-size: 12px;
-    color: #ccc;
+    color: #ddd;
     font-weight: 300;
     font-style: italic;
     line-height: 1.4;
 }
 
+.iconos {
+    display: flex;
+    margin-top: 70px;
+    gap: 15px;
+}
+
+.iconos img {
+    width: 25px;
+    margin-top: 10px;
+}
+
+
+.imagenes-colash {
+    width: min-content;
+    height: min-content;
+    scale: .9;
+    right: -30px;
+}
+
+.primeras-imagenes {
+    height: 190px;
+    object-fit: cover;
+    display: flex;
+}
+
+.primeras-imagenes img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.resto-imagenes {
+    display: flex;
+}
+
+.lado-izquierdo-resto-imagenes {
+    display: flex;
+    flex-direction: column;
+}
+
+.lado-izquierdo-resto-imagenes img {
+    width: 200px;
+}
+
+img[src="img_carta-35/pulmones-negros.jpg"] {
+    height: 390px;
+    object-fit: cover;
+}
+
+img[src="img_carta-35/cuadrado-azul.png"] {
+    height: 190px;
+}
+
 .lado-derecha {
-    display: none;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+
+.lado-derecho-resto-imagenes {
+    width: min-content;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lado-derecho-resto-imagenes > img {
+    width: 400px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.cuadrado-de-imagenes {
+    display: flex;
+}
+
+.cuadrado-de-imagenes > img {
+    width: 200px;
+    height: 390px;
+    object-fit: cover;
+}
+
+.dos-imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 390px;
+}
+
+.dos-imagenes img {
+    width: 200px;
+    height: 195px;
+    object-fit: cover;
+}
+
+.mensajes-positivos {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    right: 250px;
+    gap: 128px;
+}
+
+.mensajes-positivos button {
+    border: 1px solid #333;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 12px 16px;
+    filter: drop-shadow(3px 5px 0 #333);
+    position: relative;
+}
+
+.mensajes-positivos button:nth-child(2), .mensajes-positivos button:nth-child(4) {
+    right: 100px;
+}
+
+.mensajes-positivos button:nth-child(4) {
+    top: 10px;
+}
+
+.mensajes-positivos button:nth-child(1), .mensajes-positivos button:nth-child(3) {
+    left: 100px;
 }
