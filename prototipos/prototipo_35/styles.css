@@ -3,11 +3,15 @@ body {
     box-sizing: border-box;
     align-items: center;
     flex-direction: column;
-    font-family: Poppins;
 }
 
 .carta-35 {
     width: 1030px;
     height: 740px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    font-family: Inter;
+}
+
+.contenido h2 {
+    font-family: Zilla Slab;
 }
