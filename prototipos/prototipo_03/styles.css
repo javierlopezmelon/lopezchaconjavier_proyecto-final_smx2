@@ -4,11 +4,14 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
 .carta-3 {
     width: 800px;
-    margin-top: 70px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     padding: 30px;
     padding-top: 50px;

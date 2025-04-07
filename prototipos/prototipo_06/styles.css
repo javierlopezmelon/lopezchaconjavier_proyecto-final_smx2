@@ -4,10 +4,13 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: "Playfair Display";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
 .carta-6 {
-    margin-top: 70px;
     padding: 70px;
     padding-top: 50px;
     width: 900px;
