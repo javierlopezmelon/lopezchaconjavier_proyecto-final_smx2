@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     align-items: center;
     flex-direction: column;
-    font-family: Inter;
+    font-family: Roboto Mono;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,4 +14,67 @@ body {
     width: 1030px;
     height: 700px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    background-color: #111;
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.contenido {
+    position: relative;
+    z-index: 50;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido h2 {
+    font-size: 75px;
+    margin: 40px 0;
+}
+
+.contenido > p {
+    width: 850px;
+    font-size: 20px;
+}
+
+.secion-rectangulos {
+    display: flex;
+    gap: 40px;
+}
+
+.rectangulo-contenido {
+    display: flex;
+    width: 400px;
+}
+
+.oscuridad {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #0007;
+    z-index: 30;
+}
+
+.fondo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #0007;
+    z-index: 10;
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
