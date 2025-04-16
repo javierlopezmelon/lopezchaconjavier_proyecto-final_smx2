@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     align-items: center;
     flex-direction: column;
-    font-family: Poppins;
+    font-family: Lato;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,4 +14,107 @@ body {
     width: 1150px;
     height: 800px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.lado-arriba-arriba {
+    width: 520px;
+    margin-bottom: 70px;
+}
+
+.lado-arriba-arriba h2 {
+    font-size: 47px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.lado-arriba-arriba p {
+    font-size: 21px;
+    width: 480px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.lado-arriba-arriba button {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.dos-seciones {
+    display: flex;
+    gap: 30px;
+}
+
+.dos-seciones > div {
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0;
+}
+
+.dos-seciones p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.dos-seciones .dos-seciones-primero {
+    background-color: #C6D9E1;
+}
+
+.dos-seciones .dos-seciones-segundo {
+    background-color: #F4F4F4;
+}
+
+.tercera-secion {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    margin-top: 20px;
+    width: 470px;
+}
+
+.tercera-secion img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.tercera-secion p {
+    width: 290px;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.numero {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lado-abajo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lado-abajo img:last-child {
+    object-fit: cover;
+    width: 610px;
+    height: 700px;
+}
+
+.lado-abajo img:first-child {
+    width: 140px;
+    position: relative;
+    top: 70px;
 }
