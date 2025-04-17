@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto Mono;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.carta-44 {
+    width: 1280px;
+    height: 880px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.lado-arriba {
+    display: flex;
+    position: relative;
+}
+
+.lado-arriba_izquierdo {
+    width: 550px;
+    margin: 40px;
+    margin-right: 0;
+}
+
+.lado-arriba_izquierdo h2 {
+    font-size: 65px;
+    font-family: "Bitter", serif;
+    margin-top: 0;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.lado-arriba_izquierdo p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #eee;
+}
+
+.lado-arriba_izquierdo button {
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-family: Roboto Mono;
+    padding: 14px 28px;
+    font-size: 18px;
+}
+
+.contenido {
+    position: relative;
+    z-index: 100;
+}
+
+.sol {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #F9E166;
+    filter: drop-shadow(0 0 40px #F9E166bb) drop-shadow(0 0 5px #F9E166aa);
+    top: 80px;
+}
+
+.lado-arriba_derecho {
+    position: relative;
+    right: 50px;
+    height: 600px;
+    width: 700px;
+    overflow: hidden;
+}
+
+.lado-arriba_derecho img {
+    object-fit: cover;
+    width: 720px;
+    height: 600px;
+    object-position: -10px -190px;
+    position: absolute;
+    top: -20px;
+}
+
+.galaxia-cuadrado {
+    text-align: center;
+    width: 250px;
+    position: absolute;
+}
+
+.galaxia-cuadrado div {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.galaxia-cuadrado p {
+    margin: 0;
+}
+
+.galaxia-cuadrado:nth-child(2) {
+    top: 420px;
+    right: 300px;
+}
+
+.galaxia-cuadrado:nth-child(3) {
+    top: 80px;
+    right: -15px;
+}
+
+.lado-abajo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.trozo-secion {
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    padding: 20px 10px 0 20px;
+    background-image: linear-gradient(to top, transparent, #fff3), linear-gradient(to left, transparent, #fff1);
+    
+}
+
+.trozo-secion p {
+    width: 250px;
+    color: #eee;
+    font-size: 15px;
+}
