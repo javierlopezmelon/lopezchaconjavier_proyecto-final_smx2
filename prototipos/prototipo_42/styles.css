@@ -11,21 +11,24 @@ body {
 }
 
 .carta-42 {
-    width: 1200px;
+    width: 1300px;
     height: 850px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     padding: 60px;
     display: flex;
+    justify-content: space-between;
     color: #333;
 }
 
 .lado-izquierdo-arriba {
     display: flex;
+    gap: 50px;
     padding-top: 70px;
 }
 
 .lado-izquierdo-arriba__izquierdo {
     width: 340px;
+    margin-top: 60px;
 }
 
 .lado-izquierdo-arriba__izquierdo div {
@@ -61,6 +64,8 @@ body {
 .lado-izquierdo-arriba__derecho > img {
     width: 120px;
     height: 150px;
+    position: relative;
+    right: 50px;
 }
 
 .imagen-mas-cuadros {
@@ -71,7 +76,7 @@ body {
     outline: 2px solid #333;
     outline-offset: 30px;
     width: 400px;
-    height: 600px;
+    height: 570px;
     border-top-right-radius: 500px;
     border-top-left-radius: 500px;
 }
@@ -80,7 +85,7 @@ body {
     border-top-right-radius: 500px;
     border-top-left-radius: 500px;
     width: 400px;
-    height: 600px;
+    height: 570px;
 }
 
 .cuadro-contnido-principal {
@@ -103,7 +108,8 @@ body {
 }
 
 .cuadro-contnido-principal p {
-    width: 170px;
+    width: 150px;
+    font-size: 14px;
 }
 
 .cuadro-contnido-principal:nth-child(2){
@@ -113,5 +119,59 @@ body {
 
 .cuadro-contnido-principal:nth-child(3){
     top: 150px;
-    right: -150px
+    right: -120px
+}
+
+.lado-derecho {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lado-derecho img {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px solid #111;
+}
+
+.lado-izquierdo-abajo {
+    display: flex;
+    margin-top: 90px;
+    gap: 40px;
+}
+
+.trozo-contenido {
+    border-radius: 20px;
+    padding: 0 20px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 0 #000;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.trozo-contenido:nth-child(1) {
+    background-color: #D2EAF4;
+}
+
+.trozo-contenido:nth-child(2) {
+    background-color: #EFC48F;
+}
+
+.trozo-contenido:nth-child(3) {
+    background-color: #EECFCD;
+}
+
+.trozo-contenido .numero {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.trozo-contenido p {
+    width: 160px;
+    font-size: 14px;
 }
