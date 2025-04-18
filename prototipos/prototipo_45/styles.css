@@ -14,4 +14,131 @@ body {
     width: 1280px;
     height: 880px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: end;
+}
+
+.contenido-total {
+    display: flex;
+    width: 1280px;
+    background-color: #eee;
+    box-sizing: border-box;
+    height: 830px;
+}
+
+.lado-iquierdo_arriba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img_carta-45/imagen01.jpeg);
+    background-size: cover;
+    color: #fff;
+    height: 65%;
+    width: 620px;
+}
+
+.contenido {
+    width: 500px;
+}
+
+.contenido h2 {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: Bitter;
+    margin-bottom: 20px;
+}
+
+.contenido p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: #eee;
+}
+
+.contenido button {
+    border: none;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 14px 30px;
+    font-family: Roboto Mono;
+    font-size: 15px;
+}
+
+.lado-iquierdo_abajo {
+    display: flex;
+    height: 35%;
+    font-family: Bitter;
+}
+
+.lado-iquierdo_abajo_izquierdo {
+    background-image: url(img_carta-45/imagen02.jpeg);
+    background-size: cover;
+    background-position: -10% 50%;
+    width: 50%;
+    filter: brightness(.9);
+}
+
+.lado-iquierdo_abajo_derecho {
+    background-image: url(img_carta-45/imagen03.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.1);
+    width: 50%;
+}
+
+.lado-iquierdo_abajo .contenido_lado-izquierdo-abajo {
+    padding: 20px 0 0 20px;
+    color: #777;
+}
+
+.contenido_lado-izquierdo-abajo {
+    position: relative;
+    z-index: 100;
+    color: #000;
+}
+
+.lado-iquierdo_abajo_izquierdo .numero {
+    color: #777c;
+}
+
+.lado-iquierdo_abajo_derecho .numero {
+    color: #444c;
+    position: relative;
+    z-index: 100;
+}
+
+.contenido_lado-izquierdo-abajo p {
+    color: #555c;
+    margin-top: 0;
+}
+
+.lado-iquierdo_abajo_derecho p {
+    color: #555c;
+    margin-top: 0;
+}
+
+.numero {
+    font-size: 47px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.lado-derecho {
+    background-image: url(img_carta-45/imagen04.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position: 0% 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.contenido-lado-derecho {
+    padding-right: 40px;
+    padding-top: 40px;
+    text-align: end;
+    color: #555a;
+    font-family: Bitter;
+}
+
+.contenido-lado-derecho p {
+    margin: 0;
 }
