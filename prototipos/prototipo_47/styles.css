@@ -15,20 +15,90 @@ body {
     height: 880px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     background-color: #F8F8F8;
-    padding: 50px;
+    padding: 60px;
 }
 
 .lado-arriba {
     display: flex;
+    gap: 180px;
 }
 
 .lado-arriba_izquierdo {
-    width: 500px;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.lado-arriba_izquierdo h2 {
+    font-size: 62px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.lado-arriba_izquierdo h2:nth-child(2) {
+    margin-left: 50px;
+}
+
+.lado-arriba_izquierdo p {
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.contenido {
+    padding-left: 30px;
+    border-left: 6px solid #333;
+}
+
+.contenido button {
+    border: none;
+    border-radius: 30px;
+    background-color: #111;
+    color: #fff;
+    padding: 16px 40px;
+    font-size: 18px;
+}
+
+.lado-arriba_derecho {
+    position: relative;
+}
+
+.lado-arriba_derecho img[src="img_carta-47/circulo.png"] {
+    position: absolute;
+    right: -160px;
+    top: 40px;
+    scale: .9;
 }
 
 .lado-arriba_derecho img[src="img_carta-47/camara-fotos.png"] {
     object-fit: cover;
     width: 300px;
     height: 400px;
-    scale: 4;
+    scale: 4.5;
+}
+
+.lado-abajo {
+    display: flex;
+    margin-top: 130px;
+}
+
+.secion-trozo {
+    padding: 50px 35px;
+}
+
+.secion-trozo:nth-child(1), .secion-trozo:nth-child(3){
+    background-color: #fff;
+}
+
+.secion-trozo:nth-child(2), .secion-trozo:nth-child(4){
+    background-color: #E2E7F1;
+}
+
+.secion-trozo h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.secion-trozo p {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 0;
 }
